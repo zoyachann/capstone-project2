@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.fontttt {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.fontttt li a:hover {
+    color: #3aa66b;
+    cursor: pointer;
+}
+
+.size {
+    margin-left: -420px;
+    width: 150px;
+}
+
+.spannnnn {
+    min-width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    top: -8px;
+    right: -24px;
+    position: absolute;
+    border-radius: 100%;
+
+}
+
+.hoverrrr:hover {
+    cursor: pointer;
+
+}
+
+.barrrrs:hover {
+    cursor: pointer;
+    color: rgb(14, 207, 14);
+}
+
+.login-header {
+    background-image: url(../../images/about-hero-img.webp);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+/* offcanvas */
+.offcanvasss-btnnn {
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+.offcanvasss-btnnnss {
+    text-align: center;
+
+}
+
+.btnn-bgg-2 {
+    background: none;
+    background-color: #78b144;
+}
+
+.btnn-bgg:hover {
+    background-color: #78b144;
+
+}
+
+.btnn-bgg {
+    background: none;
+}
+
+.widthhhh {
+    width: 100px;
+}
+
+.backgroundddd-btn {
+    background: none;
+    background-color: #78b144;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.btnn-bgg {
+    background: none;
+}
+
+.fontttts {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
+
+.accordion h6 {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.sidebar h5 {
+    font-family: "Playfair Display", serif;
+
+}
+
+.accordion h6:hover {
+    color: #3aa66b;
+    cursor: pointer;
+}
+
+.article-card {
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 1rem;
+}
+
+.article-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.article-h6 {
+    font-size: 14px;
+}
+
+.article-info {
+    flex: 1;
+}
+
+.article-date {
+    font-size: 11px;
+    color: #6c757d;
+}
+
+.tag-cloud:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+.sidebar {
+    margin-top: 20px;
+}
+
+.post-title {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.recent-post img {
+    width: 100%;
+    height: auto;
+}
+
+
+.tag-cloud .badge {
+    margin: 5px 5px 5px 0;
+    font-size: 14px;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.post-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.info-icon {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+}
+
+.article-para {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+.read-btnn button {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+.widthh {
+    width: 85%;
+    height: auto;
+}
+
+.blog-btn{
+    background: none;
+    padding: 10px 20px;
+}
+
+
+/* footer section */
+.footer {
+    background-color: #3aa66b;
+    color: white;
+    padding: 20px 0;
+    height: auto;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #d4d4d4;
+}
+
+.form-control {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 13px;
+}
+
+.inputtt-btnn {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 13px;
+}
+
+.footer h4 {
+    font-family: "Playfair Display", serif;
+}
+
+.classss {
+    margin-left: 30%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.classss {
+    width: 100%;
+    max-width: 600px;
+    /* Adjust as needed */
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.form-container textarea:hover {
+    border-color: #3aa66b;
+}

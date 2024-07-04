@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="./faq.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg my-3 top-0 position-sticky bg-white $zindex-sticky:  1020;">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  container  fontttt">
+                    <li class="nav-item">
+                        <a class="nav-link text-success" aria-current="page" href="../../index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PAGES
+                        </a>
+                        <div class="d-flex">
+                            <div>
+                                <ul class="dropdown-menu mt-4 border border-0">
+                                    <li><a class="dropdown-item" href="../../pages/faqs-page/faqs-page.html">FAQS</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../pages/about/about-us.html">ABOUT US</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../pages/product.html/product.html">Product single</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../pages/contact/contact-us.html">CONTACT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            blog
+                        </a>
+                        <div class="d-flex">
+                            <ul class="dropdown-menu mt-4 border border-0">
+                                <li><a class="dropdown-item" href="../../pages/blog.html/blog.html">Blog Left
+                                        Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Without Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Left Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Without Sidebar</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="me-5">
+                    <a href="../../index.html">
+                        <img class="me-5 h-100 size "
+                            src="../../images/logo_freshmart_d19d2869-5ebd-4b8d-a95d-0c63b4e0f8ab_100x.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+            <form class="d-flex" role="search">
+                <iconify-icon class="pt-2 fs-5" icon="material-symbols:search" noobserver></iconify-icon>
+                <input class="form-control me-2 border-0 inppputt" type="search" placeholder="Search"
+                    aria-label="Search">
+            </form>
+
+            <div class="d-flex hoverrrr">
+                <div class="position-relative me-4 text-success opacity-75 fs-3">
+                    <iconify-icon type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                        aria-controls="offcanvasScrolling" icon="fa-solid:shopping-basket" noobserver></iconify-icon>
+                </div>
+                <div class="position-absolute">
+                    <span class="bg-success opacity-75 text-white fs-6 fw-bold  spannnnn">0</span>
+                </div>
+            </div>
+            <div class="fs-4 barrrrs ">
+                <iconify-icon type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight" icon="fa6-solid:bars" noobserver></iconify-icon>
+            </div>
+
+        </div>
+        </div>
+    </nav>
+
+    <div class="contact-header">
+        <h1 class="fw-bold fs-2 pb-3 pt-5 fw-bold">PAGE FAQS</h1>
+        <p class="text-white opacity-50 fs-6">Home / Page FAQs</p>
+    </div>
+
+    <!--Accordian -->
+    <div class="container my-5 pt-2">
+        <h3 class="my-5">Frequently asked question</h3>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <span class="fs-5 p-4 bg-light me-3"><b>1</b> </span><b> Sed est elit posuere ac semper at
+                            hendrerit a
+                            neque?</b>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p> ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium
+                            metus. Curabitur velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a
+                            lorem
+                            libero. In egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas
+                            et
+                            aliquam eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem
+                            vitae neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet
+                            quis.
+                            Maecenas maximus lorem eu justo tincidunt mollis
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="accordion-item mb-3">
+
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <span class="fs-5 p-4 bg-light me-3"><b>2</b> </span> <b> Why Lorem ipsum dolor sit amet ?</b>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur
+                            velit
+                            sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In
+                            egestas
+                            ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam
+                            eros,
+                            sit
+                            amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque
+                            ultricies
+                            efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus
+                            lorem
+                            eu justo tincidunt mollis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        <span class="fs-5 p-4 bg-light me-3"><b>3</b> </span> <b> What maecenas commodo mi urna, quis accumsan ligula gravida at ?</b>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur
+                            velit
+                            sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero. In
+                            egestas
+                            ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et aliquam
+                            eros,
+                            sit
+                            amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque
+                            ultricies
+                            efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus
+                            lorem
+                            eu justo tincidunt mollis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        <span class="fs-5 p-4 bg-light me-3"><b>4</b> </span> <b> Integer venenatis suscipit urna id imperdiet. In et mi quis sapien tristique sodales sit
+                            amet
+                            nec justo ?</b>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur
+                            velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero.
+                            In
+                            egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et
+                            aliquam
+                            eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem
+                            vitae
+                            neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis.
+                            Maecenas maximus lorem eu justo tincidunt mollis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive">
+                        <span class="fs-5 p-4 bg-light me-3"><b>5</b> </span> <b> Donec lobortis dolor a arcu auctor tincidunt ac fermentum enim ?</b>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFive">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur
+                            velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero.
+                            In
+                            egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et
+                            aliquam
+                            eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem
+                            vitae
+                            neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis.
+                            Maecenas maximus lorem eu justo tincidunt mollis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseSix">
+                        <span class="fs-5 p-4 bg-light me-3"><b>6</b> </span>  <b> Maecenas vitae placerat metus ?</b>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSix">
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur
+                            velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero.
+                            In
+                            egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et
+                            aliquam
+                            eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem
+                            vitae
+                            neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis.
+                            Maecenas maximus lorem eu justo tincidunt mollis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseSeven">
+                        <span class="fs-5 p-4 bg-light me-3"><b>7</b> </span>  <b> Vestibulum nulla velit, tincidunt id neque sed ?</b>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingSeven">
+                    <div class="accordion-body">
+                        <p>
+                            volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem vitae neque
+                            ultricies
+                            efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis. Maecenas maximus
+                            lorem eu justo tincidunt mollis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseEight">
+                        <span class="fs-5 p-4 bg-light me-3"><b>8</b> </span>   <b> Sed est elit posuere ac semper at hendrerit a neque?</b>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingEight">
+                    <div class="accordion-body ">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac pretium metus. Curabitur
+                            velit sem, egestas sit amet dolor nec, tristique vulputate enim. Etiam a lorem libero.
+                            In
+                            egestas ultricies convallis. Sed iaculis arcu id justo dapibus pharetra. Maecenas et
+                            aliquam
+                            eros, sit amet volutpat nisi. Duis feugiat mattis maximus. Nulla sollicitudin lorem
+                            vitae
+                            neque ultricies efficitur. Sed pulvinar tellus enim, non tincidunt nisl imperdiet quis.
+                            Maecenas maximus lorem eu justo tincidunt mollis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container mt-5 ">
+            <div class="row">
+                <!-- Logo and Description -->
+                <div class="col-md-3 text-center">
+                    <div>
+                        <img class="pb-4" src="../../images/logo-white_190x.webp" alt="logo">
+                    </div>
+                    <p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.</p>
+                </div>
+                <!-- Newsletter Subscription -->
+                <div class="col-md-3 text-center ps-5">
+                    <h4 class=" pt-4 pb-4">Newsletter</h4>
+                    <p class="pb-1">Sign up for newsletter to receive special offers and exclusive news about
+                        FreshMart
+                        products</p>
+                    <form class="form-inline pt-3">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="enter your email"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class=" inputtt-btnn btn btn-outline-secondary bg-success text-white border-0"
+                                type="button" id="button-addon2">SUBSCRIBE</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Opening Hours -->
+                <div class="col-md-3 text-center">
+                    <h4 class="pt-4 pb-4">Opening Hours</h4>
+                    <p>Monday to Friday: 8:00 AM - 8:00 PM</p>
+                    <p>Saturday: 7:30 AM - 9:30 PM</p>
+                    <p>Sunday: 7:00 AM - 10:00 PM</p>
+                </div>
+                <!-- Contact Information -->
+                <div class="col-md-3 text-center lh-lg">
+                    <h4 class="pt-4 pb-4">Contact Us</h4>
+                    <address>
+                        <b>Address:</b>
+                        123 Suspendis matti, Visaosang<br>
+                        Building VST District, North American<br>
+                        <b>Hotline:</b> 0123-456-78910 - 0987-654-32100<br>
+                        <b>Email:</b> support@domain.com
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-muted">&copy; Copyright © 2021 Vinovathemes. All rights
+                    reserved.</span>
+            </div>
+
+            <div class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <img src="../../images/payment_300x.avif" alt="">
+            </div>
+        </footer>
+    </div>
+
+    <!-- offcanvas -->
+    <!-- 1st -->
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+
+            <div class="mt-5 offcanvasss-btnnn">
+                <button type="button" class="btn-close pb-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h5 class="offcanvas-title pt-5" id="offcanvasScrollingLabel">Your cart is currently empty.</h5>
+            </div>
+
+        </div>
+        <div class="offcanvas-body ">
+            <div class="offcanvasss-btnnnss mb-3">
+                <button class=" border-0 backgroundddd-btn text-white px-5 py-2 rounded-5">VEGETABLES</button>
+            </div>
+            <div class="offcanvasss-btnnnss mb-3">
+                <button class=" border-0 backgroundddd-btn text-white px-5 py-2 rounded-5">FRUITS</button>
+            </div>
+            <div class="offcanvasss-btnnnss px-5">
+                <button class=" border-0 backgroundddd-btn text-white px-5 py-2 rounded-5">JUICES</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- 2nd -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <div>
+                <img class="ms-5 mt-3 widthhhh "
+                    src="../../images/logo_freshmart_d19d2869-5ebd-4b8d-a95d-0c63b4e0f8ab_100x.png" alt="">
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ms-5">
+            <div class="py-3">
+                <a class="nav-link" href="../../pages/loginpage/loginpage.html">Login</a>
+            </div>
+            <div class="py-3">
+                <a class="nav-link" href="../../pages/register-page/register.html">Register</a>
+            </div>
+            <div class="py-3">
+                <a class="nav-link" href="../../index.html">Check Out</a>
+            </div>
+            <div class="py-3">
+                <a class="nav-link" href="">Wishlist</a>
+            </div>
+            <hr class="me-5">
+            <div class="d-flex border w-75 align-items-center border-success py-1">
+                <button class="border-0 me-3 ms-3  btnn-bgg  p-1 px-3">USD</button>
+                <button class="border-0 me-3 btnn-bgg-2 p-1 px-3">EUR</button>
+                <button class="border-0 btnn-bgg p-1 px-3 me-4">GBP</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

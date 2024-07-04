@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.container{
+    font-family: "Playfair Display", serif;
+}
+.fontttt {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.fontttt li a:hover {
+    color: #3aa66b;
+    cursor: pointer;
+}
+
+.size {
+    margin-left: -420px;
+    width: 150px;
+}
+
+.spannnnn {
+    min-width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    top: -8px;
+    right: -24px;
+    position: absolute;
+    border-radius: 100%;
+
+}
+
+.hoverrrr:hover {
+    cursor: pointer;
+
+}
+
+.barrrrs:hover {
+    cursor: pointer;
+    color: rgb(14, 207, 14);
+}
+
+.fontttt-para {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+.product-header {
+    background-image: url(../../images/about-hero-img.webp);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.aboutt-para h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.aboutt-para p {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* banner */
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.color-option img {
+    width: 60px;
+    height: auto;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+.guaranteed-checkout img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.input-width {
+    width: 85px;
+}
+
+
+/* product cards */
+
+.product-card {
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #ddd;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    height: 40vh;
+}
+
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    padding-bottom: 40px;
+
+}
+
+.product-card:hover {
+    cursor: pointer;
+    box-shadow: 1px 2px 15px 0px #00000026;
+    border: none;
+}
+
+.spann-topp {
+    margin-right: 170px;
+    margin-top: 40px;
+}
+
+.ff-familyy {
+    font-family: "Roboto", sans-serif;
+}
+
+.fonnntt-fmly {
+    font-family: "Playfair Display", serif;
+}
+
+
+/* footer section */
+.footer {
+    background-color: #3aa66b;
+    color: white;
+    padding: 20px 0;
+    height: auto;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #d4d4d4;
+}
+
+.form-control {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 13px;
+}
+
+.inputtt-btnn {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 13px;
+}
+
+.footer h4 {
+    font-family: "Playfair Display", serif;
+}
+
+
+/* offcanvas */
+/* 1st */
+
+.offcanvasss-btnnn {
+    text-align: center;
+    padding-left: 50px;
+}
+
+.offcanvasss-btnnnss {
+    text-align: center;
+}
+
+.btnn-bgg-2 {
+    background: none;
+    background-color: #78b144;
+}
+
+.btnn-bgg:hover {
+    background-color: #78b144;
+
+}
+
+.btnn-bgg {
+    background: none;
+}
+
+.widthhhh {
+    width: 100px;
+}
+
+/* 2nd  */
+
+.offcanvasss-btnnn {
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+.offcanvasss-btnnnss {
+    text-align: center;
+
+}
+
+.backgroundddd-btn {
+    background: none;
+    background-color: #78b144;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.btnn-bgg {
+    background: none;
+}
+
+@media (max-width: 775px) {
+    .product-card {
+        height: auto;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .card-product {
+        margin: auto 10px;
+    }
+
+    .card-product1 img {
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* offcanvas */
+/* 1st */
+
+.offcanvasss-btnnn {
+    text-align: center;
+    padding-left: 50px;
+}
+
+.offcanvasss-btnnnss {
+    text-align: center;
+}
+
+.btnn-bgg-2 {
+    background: none;
+    background-color: #78b144;
+}
+
+.btnn-bgg:hover {
+    background-color: #78b144;
+
+}
+
+.btnn-bgg {
+    background: none;
+}
+
+.widthhhh {
+    width: 100px;
+}
+
+/* 2nd  */
+
+.offcanvasss-btnnn {
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+.offcanvasss-btnnnss {
+    text-align: center;
+
+}
+
+.backgroundddd-btn {
+    background: none;
+    background-color: #78b144;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.btnn-bgg {
+    background: none;
+}
+
+.fontttts {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
